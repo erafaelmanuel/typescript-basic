@@ -1,13 +1,14 @@
+"use strict";
+exports.__esModule = true;
 var Person = /** @class */ (function () {
     function Person(name, age) {
         this.name = name;
         this.age = age;
-        this.secret = "password123";
+        this.secret = "touchmenot";
     }
     Person.prototype.getSecret = function () {
         return this.secret;
     };
     return Person;
 }());
-var person = new Person("Romeo", 16);
-console.log(person);
+exports.Person = Person;
