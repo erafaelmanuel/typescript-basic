@@ -1,11 +1,11 @@
 import { Repo } from "./repo";
 
 export class User {
-    login: string = ""
-    name: string = ""
-    repoCount: number = 0
-    followerCount: number = 0
-    repos: Repo[] = []
+    login: string
+    name: string
+    repoCount: number
+    followerCount: number
+    repos: Repo[]
 
     constructor(login: string, name: string, repoCount: number, followerCount: number, repos: Repo[]) {
         this.login = login
