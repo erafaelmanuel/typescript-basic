@@ -1,3 +1,4 @@
+"use strict";
 var list;
 var turple;
 list = [3, 4];

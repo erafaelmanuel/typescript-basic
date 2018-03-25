@@ -1,3 +1,4 @@
+"use strict";
 function printAny(str) {
     console.log(str);
 }
@@ -12,6 +13,6 @@ function greeting(greet) {
 printAny("hello world");
 printAny(5);
 printAny(false);
+printAny(greeting());
 printOptional();
 printOptional("other value");
-printOptional(greeting());

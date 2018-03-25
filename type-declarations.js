@@ -1,3 +1,4 @@
+"use strict";
 //implicit
 var a;
 var b;

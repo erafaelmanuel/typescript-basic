@@ -1,10 +1,11 @@
+"use strict";
 var Programmer = /** @class */ (function () {
     function Programmer() {
     }
     Programmer.prototype.doStuff = function () {
         return "foo";
     };
-    Programmer.prototype["break"] = function () {
+    Programmer.prototype.break = function () {
         console.log("bar");
     };
     return Programmer;
@@ -15,7 +16,7 @@ eagers.push({
     doStuff: function () {
         return "foo";
     },
-    "break": function () {
+    break: function () {
         console.log("bar");
     }
 });

@@ -1,0 +1,26 @@
+{
+  "name": "typescript-basic",
+  "version": "1.0.0",
+  "description": "Learn about the basics of TypeScript. Understand how types work, how to use arrays and tuples, how to declare classes and interfaces. Understand concepts of type erasure, duck typing, enums, generics and modules. Create a development workflow and configure the TypeScript compiler to your needs.",
+  "main": "index.js",
+  "dependencies": {
+    "lodash": "^4.17.5"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.106"
+  },
+  "scripts": {
+    "start": "tsc && node index.js ",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erafaelmanuel/typescript-basic.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/erafaelmanuel/typescript-basic/issues"
+  },
+  "homepage": "https://github.com/erafaelmanuel/typescript-basic#readme"
+}
